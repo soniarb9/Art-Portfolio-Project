@@ -1,2 +1,2 @@
-# Art Portfolio Project
+# Art Portfolio
  
