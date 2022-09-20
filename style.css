@@ -97,6 +97,13 @@
   padding-top: 0.5em;
 }
 
+.title {
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 1em;
+  justify-content: center;
+}
+
 /* .main { */
 /* display: flex;
   justify-content: center;
