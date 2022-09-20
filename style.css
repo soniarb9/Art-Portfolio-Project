@@ -1,13 +1,35 @@
-.flex-grow-1 {
+/* .flex-grow-1 {
   border-bottom: 1px solid gray;
   padding-left: 90px;
   padding-right: 90px;
   padding-top: 2em;
   padding-bottom: 2em;
+} */
+
+.flex {
+  /* position: sticky; */
+  display: flex;
+  /* width: 40px; */
+  height: 87px;
 }
 
-.nav {
-  position: sticky;
+.sfx {
+  flex: 1;
+  padding-left: 1rem;
+  padding-top: 1.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  flex: 0.25;
+  padding-top: 1.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:any-link {
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar-brand {
@@ -23,7 +45,7 @@
 
 /* Style The Dropdown Button */
 .dropbtn {
-  background-color: #f8f9fa;
+  background-color: white;
   /* padding: 16px; */
   font-size: 16px;
   border: none;
@@ -98,7 +120,7 @@
 }
 
 .gallery__img {
-  width: 100%;
-  height: 100%;
+  width: 125%;
+  height: 125%;
   object-fit: cover;
 }
