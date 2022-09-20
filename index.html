@@ -1,22 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Art Portfolio Sonia Sharma</title>
-    <link rel="stylesheet" href="style.css" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <!-- Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <title>Art Portfolio</title>
   </head>
 
   <body>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+    <nav class="navbar navbar-expand navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"
+              >Portfolio<span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+
+        <div class="dropdown">
+          <button class="dropbtn">Social Media</button>
+          <div class="dropdown-content">
+            <a href="thumbtack.html">Thumbtack</a>
+            <a href="instagram.html">Instagram</a>
+          </div>
+        </div>
+      </div>
     </nav>
-    <div>this is the homepage</div>
+
+    <div class="gallery">
+      <figure class="gallery__item gallery__item--1">
+        <img src="pic1.png" class="gallery__img" alt="Image 1" />
+      </figure>
+      <figure class="gallery__item gallery__item--2">
+        <img src="pic2.png" class="gallery__img" alt="Image 2" />
+      </figure>
+      <figure class="gallery__item gallery__item--3">
+        <img src="pic3.png" class="gallery__img" alt="Image 3" />
+      </figure>
+      <figure class="gallery__item gallery__item--4">
+        <img src="pic4.png" class="gallery__img" alt="Image 4" />
+      </figure>
+      <figure class="gallery__item gallery__item--5">
+        <img src="pic5.png" class="gallery__img" alt="Image 5" />
+      </figure>
+      <figure class="gallery__item gallery__item--6">
+        <img src="pic6.png" class="gallery__img" alt="Image 6" />
+      </figure>
+      <figure class="gallery__item gallery__item--1">
+        <img src="pic7.png" class="gallery__img" alt="Image 1" />
+      </figure>
+      <figure class="gallery__item gallery__item--2">
+        <img src="pic8.png" class="gallery__img" alt="Image 2" />
+      </figure>
+      <figure class="gallery__item gallery__item--3">
+        <img src="pic9.png" class="gallery__img" alt="Image 3" />
+      </figure>
+      <figure class="gallery__item gallery__item--4">
+        <img src="pic10.png" class="gallery__img" alt="Image 4" />
+      </figure>
+      <figure class="gallery__item gallery__item--5">
+        <img src="pic11.png" class="gallery__img" alt="Image 5" />
+      </figure>
+      <figure class="gallery__item gallery__item--6">
+        <img src="pic12.png" class="gallery__img" alt="Image 6" />
+      </figure>
+      <figure class="gallery__item gallery__item--6">
+        <img src="pic13.png" class="gallery__img" alt="Image 6" />
+      </figure>
+    </div>
   </body>
 </html>
