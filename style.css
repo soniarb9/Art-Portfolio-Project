@@ -129,7 +129,7 @@ p {
 
 .gallery__img:hover {
   transform: scale(
-    1.5
+    1.2
   ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
@@ -158,13 +158,42 @@ input {
   margin: 0.5em;
 }
 
-textarea {
+.abouttext {
   display: block;
   margin: 0.5em;
+  padding-right: 1rem;
+  line-height: 2;
 }
 
 .formcenter {
   justify-content: center;
+}
+.next {
+  padding-top: 3rem;
+  justify-content: center;
+  position: relative;
+  display: flex;
+}
+
+.block {
+  display: flex;
+  /* width: 66%; */
+  /* justify-content: center; */
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 45px;
+  position: absolute;
+  /* margin-left: 44rem; */
+  /* margin: 0; */
+  /* position: absolute; */
+  /* top: 50%; */
+  -ms-transform: translateY(-50%);
+  /* transform: translateY(-50%); */
 }
 
 .bottomsfx {
